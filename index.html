@@ -6,6 +6,21 @@
     <!-- SEO acisindan onemli (165 karakter uzunlugunda bir aciklama) -->
     <meta name="description" content="Dunyanin en iyi kalemleri cw-kalem" />
     <link rel="shortcut icon" href="./img/logo.webp" type="image/x-icon" />
+
+    <!-- HTML kodunuz stillendirme dosyasi ile baglantisi -->
+    <link rel="stylesheet" href="stil.css" />
+
+    <style>
+      /* internal CSS */
+      .par {
+        color: white;
+        background-color: red;
+      }
+      #container {
+        border: 2px solid yellowgreen;
+      }
+    </style>
+
     <title>Recap</title>
   </head>
   <body>
@@ -15,5 +30,41 @@
     <h4>Bu bir H4 etiketidir</h4>
     <h5>Bu bir H5 etiketidir</h5>
     <h6>Bu bir H6 etiketidir</h6>
+
+    <div id="container">
+      <p class="par">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+        perferendis ad doloribus vel expedita praesentium, facilis dolorum quos
+        beatae impedit minus deserunt inventore mollitia libero corrupti
+        recusandae temporibus repudiandae eaque?
+      </p>
+
+      <!-- Inline CSS -->
+      <p style="color: blueviolet; background-color: beige">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        possimus modi praesentium natus tempore vitae aliquid aut delectus quam
+        error.
+      </p>
+
+      <p class="par">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+        exercitationem libero excepturi veniam nisi?
+      </p>
+    </div>
+    <section>
+      Lorem ipsum <mark>dolor</mark> sit amet <u>consectetur</u> adipisicing
+      elit. <del>Nihil </del> aliquam deleniti corporis <b>tenetur</b> ex dicta
+      eligendi quaerat soluta,
+      <strong>officia</strong>
+      iure quidem reiciendis. Consequatur labore voluptate aliquid neque
+      <em>accusamus</em>
+      qui quod.
+
+      <br />
+      <article>Bu urunun fiyati <span style="color: red">500 TL</span></article>
+    </section>
+
+    <p>Suyun formulu H<sub>2</sub>0</p>
+    <p>Formul x<sup>2</sup>+ 3</p>
   </body>
 </html>
